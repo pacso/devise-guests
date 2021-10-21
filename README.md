@@ -64,7 +64,7 @@ end
 
 ### Custom attribute
 
-If you have added additional authentication_keys, or have other attributes on your Devise model that you need to set 
+If you have added additional authentication_keys, or have other attributes on your Devise model that you need to set
 when creating a guest user, you can do so by overriding the set_guest_user_params method in your ApplicationController:
 
 ```ruby
